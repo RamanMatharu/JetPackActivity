@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">JetPackActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_first_fragment">Next</string>
+    <string name="navigate_back">Back</string>
+    <string name="name">Name</string>
+    <string name="city">City</string>
+    <string name="passed_name">Your Entered Name</string>
+    <string name="passed_city">Your Entered City</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingStart="15dp"
+    android:paddingEnd="15dp"
+    android:paddingTop="@dimen/margin_20dp"
+    android:paddingBottom="@dimen/margin_20dp"
+    tools:context=".SecondFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/passed_name"
+        android:layout_gravity="start"
+        android:textSize="@dimen/size_20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/enteredNameSpace"
+        android:textSize="@dimen/size_20sp"
+        android:layout_marginBottom="@dimen/margin_20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/passed_city"
+        android:layout_gravity="start"
+        android:textSize="@dimen/size_20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/enteredCitySpace"
+        android:textSize="@dimen/size_20sp"
+        android:layout_marginBottom="@dimen/margin_20dp"/>
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/navigate_back"
+        android:textSize="@dimen/size_20sp"/>
+
+
+
+</LinearLayout>
