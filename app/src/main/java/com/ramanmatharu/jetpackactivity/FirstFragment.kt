@@ -50,7 +50,7 @@ class FirstFragment : Fragment() {
             val data = Bundle()
             data.putString("name", binding.nameSpace.text.toString())
             data.putString("city", binding.citySpace.text.toString())
-            mainActivity.navController.navigate(R.id.action_firstFragment2_to_secondFragment,data)
+            mainActivity.navController.navigate(R.id.secondFragment,data)
         }
 
     }
